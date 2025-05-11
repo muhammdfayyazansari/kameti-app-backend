@@ -12,7 +12,6 @@ dotenv.config()
 
 const app = express()
 
-
 // Middleware
 app.use(helmet()); // Security headers
 app.use(cors()); // Cross-Origin Resource Sharing
